@@ -7,6 +7,7 @@ from cinemas.models import Cinema
 from cinemas.serializers import CinemaSerializer
 
 # Create your views here.
+
 @api_view(['GET', 'POST'])
 def cinema_index(request):
     if request.method == "GET":
